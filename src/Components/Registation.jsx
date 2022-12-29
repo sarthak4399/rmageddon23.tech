@@ -10,7 +10,7 @@ const Registation = () => {
         <div className="lg:flex lg:items-center">
           <div className="w-full space-y-12 lg:w-1/2 ">
             <div>
-              <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white text-gradient">
+              <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white text-gradient ">
                 Steps To <br />
                 <span>Register in this awesome compittion</span>
               </h1>
@@ -22,14 +22,14 @@ const Registation = () => {
             </div>
 
             <div className="md:flex md:items-start md:-mx-4">
-              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
+              <span className="inline-block p-2 text-black bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
                 <GiClick className=" w-6 h-6 " />
               </span>
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white ">
+                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white ">
                   Click on Register Now button
                 </h1>
-                <p className="mt-3 text-gray-500 dark:text-gray-300">
+                <p className="mt-3 text-gray-300 dark:text-gray-200">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet.
@@ -37,16 +37,16 @@ const Registation = () => {
               </div>
             </div>
             <div className="md:flex md:items-start md:-mx-4">
-              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
+              <span className="inline-block p-2 text-black bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
                 <AiOutlineForm className=" w-6 h-6 " />
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
                   Fill Up Your Details
                 </h1>
 
-                <p className="mt-3 text-gray-500 dark:text-gray-300 ">
+                <p className="mt-3 text-gray-300 dark:text-gray-200 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet
@@ -55,16 +55,16 @@ const Registation = () => {
             </div>
 
             <div className="md:flex md:items-start md:-mx-4">
-              <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
+              <span className="inline-block p-2 text-black bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
                 <MdCelebration className=" w-6 h-6 " />
               </span>
 
               <div className="mt-4 md:mx-4 md:mt-0">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
                   Here You Go Regitration sucessfull
                 </h1>
 
-                <p className="mt-3 text-gray-500 dark:text-gray-300">
+                <p className="mt-3 text-gray-300 dark:text-gray-300">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident ab nulla quod dignissimos vel non corrupti doloribus
                   voluptatum eveniet
