@@ -9,7 +9,13 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="w-[32px] h-[32px] text-white text-4xl text-bold"> RNXG</h1>
+      <a
+        className="w-[32px] h-[32px] text-white text-4xl text-bold cursor-pointer"
+        href="https://www.rnxg.co.in/"
+      >
+        {" "}
+        RNXG{" "}
+      </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

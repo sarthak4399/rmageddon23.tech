@@ -3,6 +3,7 @@ import { footerLinks, socialMedia } from "../Constant";
 const Footer = () => (
   <section
     id="contact"
+    name="contact"
     className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
   >
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>

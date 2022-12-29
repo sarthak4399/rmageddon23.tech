@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
+      name="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div

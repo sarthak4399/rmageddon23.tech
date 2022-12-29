@@ -4,7 +4,7 @@ import styles from "../style";
 import Button from "./Button";
 const Card = () => {
   return (
-    <section id="compittions">
+    <section id="compittions" name="compittions">
       <div className="grid lg:grid-cols-3 gap-4 text-green-400 py-1 h-full w-full sm: p-0">
         <script src="https://cdn.tailwindcss.com" />
 

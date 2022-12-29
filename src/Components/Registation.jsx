@@ -5,7 +5,7 @@ import { MdCelebration } from "react-icons/md";
 import { step_image } from "../assets";
 const Registation = () => {
   return (
-    <section id="register">
+    <section id="register" name="register">
       <div className="container px-6 py-10 mx-auto">
         <div className="lg:flex lg:items-center">
           <div className="w-full space-y-12 lg:w-1/2 ">
@@ -29,7 +29,6 @@ const Registation = () => {
                 <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white ">
                   Click on Register Now button
                 </h1>
-
                 <p className="mt-3 text-gray-500 dark:text-gray-300">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident ab nulla quod dignissimos vel non corrupti doloribus

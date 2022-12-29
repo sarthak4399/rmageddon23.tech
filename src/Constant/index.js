@@ -27,14 +27,8 @@ export const footerLinks = [
         name: "Home",
         link: "https://www.rnxg.co.in/profiles",
       },
-      {
-        name: "Compittions",
-        link: "https://www.rnxg.co.in/Privicy",
-      },
-      {
-        name: "Rewards",
-        link: "https://www.rnxg.co.in/Terms",
-      },
+      { id: "compittions", name: "Compittions" },
+      { id: "register", name: "Register" },
     ],
   },
   {
@@ -55,6 +49,10 @@ export const navLinks = [
   {
     id: "compittions",
     title: "Compittions",
+  },
+  {
+    id: "reward",
+    title: "Reward",
   },
   {
     id: "register",

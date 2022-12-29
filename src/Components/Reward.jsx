@@ -19,7 +19,7 @@ const FeatureCard = ({ title, content, index }) => (
   </div>
 );
 const Reward = () => (
-  <section id="features" className={layout.section}>
+  <section id="reward" name="reward" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         What You Will get <br className="sm:block hidden" />
