@@ -1,9 +1,10 @@
 import styles from "../style";
-
 import { footerLinks, socialMedia } from "../Constant";
-
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section
+    id="contact"
+    className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
+  >
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <h1 className="text-gradient text-3xl text-bold">RNXG</h1>
@@ -13,7 +14,6 @@ const Footer = () => (
           for them.
         </p>
       </div>
-
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
           <div
@@ -45,13 +45,13 @@ const Footer = () => (
         Copyright Ⓒ 2023 RNXG. All Rights Reserved.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
+      <div className="flex flex-row md:mt-0 mt-6 justify-between">
         {socialMedia.map((social, index) => (
           <img
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+            className={`w-[21px] h-[21px] object-contain cursor-pointer rounded-full hover:bg-gradient-to-l from-[#00df9a] to-[#DFFA2D] to  ${
               index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
             }`}
             onClick={() => window.open(social.link)}

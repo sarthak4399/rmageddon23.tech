@@ -1,28 +1,48 @@
-import { facebook, instagram, linkedin } from "../assets";
-
+import { facebook, instagram, linkedin, youtube } from "../assets";
+import { GiClick } from "react-icons/gi";
+import { AiOutlineForm } from "react-icons/ai";
+import { MdCelebration } from "react-icons/md";
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Club",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "About",
+        link: "https://www.rnxg.co.in/profiles",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Privacy",
+        link: "https://www.rnxg.co.in/Privicy",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Terms & Condittion",
+        link: "https://www.rnxg.co.in/Terms",
+      },
+    ],
+  },
+  {
+    title: "Other-link",
+    links: [
+      {
+        name: "Home",
+        link: "https://www.rnxg.co.in/profiles",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Compittions",
+        link: "https://www.rnxg.co.in/Privicy",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Rewards",
+        link: "https://www.rnxg.co.in/Terms",
+      },
+    ],
+  },
+  {
+    title: "Contact Us",
+    links: [
+      {
+        name: "rnxg@sggs.ac.in",
+        link: "https://mail.google.com/mail/u/0/?fs=1&to=rnxg@sggs.ac.in&tf=cm",
       },
     ],
   },
@@ -91,5 +111,30 @@ export const socialMedia = [
     id: "Linkedin",
     icon: linkedin,
     link: "https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Aorganization%3A31238246&keywords=rnxg&origin=RICH_QUERY_SUGGESTION&position=0&searchId=d79dd991-69ab-4670-9543-5643e13efd28&sid=gg7",
+  },
+  {
+    id: "youtube",
+    icon: youtube,
+    link: "https://www.youtube.com/channel/UC9fFrYx9UEpxDjS9YO6t2FA",
+  },
+];
+export const steps = [
+  {
+    id: "step-1",
+    icon: { GiClick },
+    title: "Click on the Regester Now button",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  },
+  {
+    id: "step-2",
+    icon: { AiOutlineForm },
+    title: "Fill Up Your Details",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  },
+  {
+    id: "step-3",
+    icon: { MdCelebration },
+    title: "Here You Go registration Sucessfull",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   },
 ];
