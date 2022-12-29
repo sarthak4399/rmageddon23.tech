@@ -6,6 +6,7 @@ import {
   Hero,
   Attraction,
   Registation,
+  Card,
 } from "./components";
 
 const App = () => (
@@ -24,7 +25,9 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Attraction />
         <Reward />
+
         <Registation />
+        <Card />
         <Footer />
       </div>
     </div>

@@ -5,4 +5,5 @@ import Button from "./Button";
 import Footer from "./Footer";
 import Reward from "./Reward";
 import Registation from "./Registation";
-export { Navbar, Hero, Attraction, Button, Footer, Reward, Registation };
+import Card from "./Card";
+export { Navbar, Hero, Attraction, Button, Footer, Reward, Registation, Card };
