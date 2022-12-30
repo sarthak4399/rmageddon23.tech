@@ -53,7 +53,7 @@ const Registation = () => {
               </div>
             </div>
 
-            <div className="md:flex md:items-start md:-mx-4">
+            <div className="md:flex md:items-start md:-mx-4 ">
               <span className="inline-block p-2 text-black bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
                 <MdCelebration className=" w-6 h-6 " />
               </span>
@@ -73,11 +73,13 @@ const Registation = () => {
           </div>
 
           <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
-            <img
-              className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full bg-black-gradient"
-              src={step_image}
-              alt="/"
-            />
+            <a href="" target={"/"}>
+              <img
+                className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full bg-black-gradient"
+                src={step_image}
+                alt="/"
+              />
+            </a>
           </div>
         </div>
       </div>

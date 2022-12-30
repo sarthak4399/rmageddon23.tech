@@ -28,7 +28,9 @@ const Card = () => {
                   repellendus reiciendis modi hic? Voluptatum culpa nihil
                   pariatur reprehenderit, blanditiis vero non nemo?
                 </p>
-                <Button styles={`mt-10`} className="sm:" />
+                <div className=" justify-center flex ">
+                  <Button styles={`mt-10`} className="sm:" />
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +56,9 @@ const Card = () => {
                   veniam! Veniam pariatur earum eum! Voluptate aperiam quia
                   exercitationem quidem ab voluptatibus qui unde?
                 </p>
-                <Button styles={`mt-10`} />
+                <div className=" justify-center flex ">
+                  <Button styles={`mt-10`} className="sm:" />
+                </div>
               </div>
             </div>
           </div>
@@ -80,7 +84,9 @@ const Card = () => {
                   reprehenderit nam esse non, quaerat accusamus eum! Molestiae,
                   eligendi nam esse dolores cupiditate et.
                 </p>
-                <Button styles={`mt-10`} />
+                <div className=" justify-center flex ">
+                  <Button styles={`mt-10`} className="sm:" />
+                </div>
               </div>
             </div>
           </div>
