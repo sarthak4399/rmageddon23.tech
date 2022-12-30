@@ -20,7 +20,6 @@ const Registation = () => {
                 <span className="inline-block w-1 h-1 ml-1 rounded-full bg-[black-grdient]"></span>
               </div>
             </div>
-
             <div className="md:flex md:items-start md:-mx-4">
               <span className="inline-block p-2 text-black bg-blue-100 rounded-xl md:mx-4 dark:text-white bg-gradient-to-l from-[#00df9a] to-[#DFFA2D]">
                 <GiClick className=" w-6 h-6 " />

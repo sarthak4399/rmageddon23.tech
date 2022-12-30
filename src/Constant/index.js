@@ -43,25 +43,30 @@ export const footerLinks = [
 ];
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
+    URL: "/",
   },
   {
     id: "compittions",
     title: "Compittions",
+    URL: "/card",
   },
   {
-    id: "reward",
+    id: "/reward",
     title: "Reward",
+    URL: "/reward",
   },
   {
-    id: "register",
+    id: "/register",
     title: "Register",
+    URL: "register",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  //   URL: "/contact",
+  // },
 ];
 export const features = [
   {
