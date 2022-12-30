@@ -16,41 +16,46 @@ import Registation from "./Components/Registation";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
 import { Route, Routes } from "react-router-dom";
-const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <NavBar />
+import Loader from "./Components/Loader";
+const App = () => {
+  // const [isLoading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(true);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1500);
+  // }, []);
+  return (
+    // <div>
+    //   {loading ? (
+    //     <Loader loading={loading} />
+    //   ) : (
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <NavBar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Attraction />
+          <Reward />
+          <Registation />
+          <Card />
+          <Footer />
+        </div>
       </div>
     </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Routes>
-          <Route path="/" element={<Hero />} />{" "}
-        </Routes>
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Routes>
-          <Route path="/" element={<Attraction />} />{" "}
-        </Routes>
-
-        <Routes>
-          <Route path="/reward" element={<Reward />} />{" "}
-        </Routes>
-        <Routes>
-          <Route path="/register" element={<Registation />} />{" "}
-        </Routes>
-        <Routes>
-          <Route path="/card" element={<Card />} />
-        </Routes>
-        <Footer />
-      </div>
-    </div>
-  </div>
-);
-
+    //   )}
+    // </div>
+  );
+};
 export default App;
