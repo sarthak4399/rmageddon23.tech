@@ -17,6 +17,8 @@ import Card from "./Components/Card";
 import Footer from "./Components/Footer";
 import { Route, Routes } from "react-router-dom";
 import Loader from "./Components/Loader";
+import ReactGA from "react-ga";
+ReactGA.initialize("G-QCC2FVMKR9");
 const App = () => {
   // const [isLoading, setLoading] = useState(false);
   // const [loading, setLoading] = useState(true);
@@ -25,7 +27,9 @@ const App = () => {
   //   setTimeout(() => {
   //     setLoading(false);
   //   }, 1500);
-  // }, []);
+  // }, []);useEffect(() => {
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     // <div>
     //   {loading ? (
