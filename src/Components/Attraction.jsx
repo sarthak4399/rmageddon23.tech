@@ -18,5 +18,4 @@ const Attraction = () => (
     ))}
   </section>
 );
-
 export default Attraction;

@@ -3,7 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -16,7 +15,6 @@
 * {
   scroll-behavior: smooth;
 }
-
 .text-gradient {
   background: hsla(161, 100%, 44%, 1);
   background: linear-gradient(
@@ -30,15 +28,12 @@
     hsla(161, 100%, 44%, 1) 0%,
     hsla(68, 95%, 58%, 1) 100%
   );
-
   background: -webkit-linear-gradient(
     90deg,
     hsla(161, 100%, 44%, 1) 0%,
     hsla(68, 95%, 58%, 1) 100%
   );
-
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00DF9A", endColorstr="#DFFA2D", GradientType=1 );
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -70,7 +65,6 @@
     #11101d 91.61%
   );
 }
-
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,

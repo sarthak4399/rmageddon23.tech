@@ -63,6 +63,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "form",
+    title: "Form",
+  },
 ];
 export const features = [
   {

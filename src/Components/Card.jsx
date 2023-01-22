@@ -18,15 +18,16 @@ const Card = () => {
                   className="w-[150px] h-[150px] mx-auto"
                 />
                 <p className="text-lg font-semibold text-gradient text-center">
-                  Line-Follower
+                  PAC RUNNER
                 </p>
                 <p
                   className={`${styles.paragraph} max-w-[450px] mt-5  text-center`}
                 >
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Architecto, minus esse earum nobis cumque est tenetur quam
-                  repellendus reiciendis modi hic? Voluptatum culpa nihil
-                  pariatur reprehenderit, blanditiis vero non nemo?
+                  The objective of this PAC RUNNER contest is for a robot to
+                  follow a black line on a white background, without losing the
+                  line, and navigating several 90 degree turns. The robot to
+                  complete the course in the shortest period of time while
+                  accurately tracking the course line from start to finish wins.
                 </p>
                 <div className=" justify-center flex ">
                   <Button styles={`mt-10`} className="sm:" />
@@ -46,15 +47,16 @@ const Card = () => {
                   className="w-[150px] h-[150px]  mx-auto"
                 />
                 <p className="text-lg font-semibold text-gradient  text-center">
-                  Robo-Sumo
+                  RETROMANIA
                 </p>
                 <p
                   className={`${styles.paragraph} max-w-[470px] mt-5 text-center`}
                 >
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Eaque corporis excepturi nostrum quasi impedit porro natus
-                  veniam! Veniam pariatur earum eum! Voluptate aperiam quia
-                  exercitationem quidem ab voluptatibus qui unde?
+                  Design a wired robot within the specified dimensions that can
+                  operated manually and can travel through all turns of the
+                  track and pass through all the obstacles. The robot that will
+                  complete the race in least time will be the winner of the
+                  RETROMANIA.
                 </p>
                 <div className=" justify-center flex ">
                   <Button styles={`mt-10`} className="sm:" />
@@ -74,15 +76,16 @@ const Card = () => {
                   className="w-[150px] h-[150px]  mx-auto"
                 />
                 <p className="text-lg font-semibold text-gradient text-center">
-                  Robo-Race
+                  NINJA TURTLE
                 </p>
                 <p
                   className={`${styles.paragraph} max-w-[470px] mt-5 text-center `}
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Maiores ex sint laborum molestiae velit nihil beatae
-                  reprehenderit nam esse non, quaerat accusamus eum! Molestiae,
-                  eligendi nam esse dolores cupiditate et.
+                  NINJA TURTLE is a sport in which 2 robots have to push each
+                  other out of the arena.The operators have to operate robots
+                  from outside and try to push opponent's robot out of the arena
+                  by different tactics also have to prevent own robot from
+                  leaving the arena.
                 </p>
                 <div className=" justify-center flex ">
                   <Button styles={`mt-10`} className="sm:" />
