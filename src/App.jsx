@@ -56,7 +56,7 @@ const App = () => {
           <Footer />
         </div>
       </div>
-      <Form />
+      {/* <Form /> */}
     </div>
 
     //   )}

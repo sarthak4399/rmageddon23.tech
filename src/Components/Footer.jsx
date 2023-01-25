@@ -2,43 +2,80 @@ import styles from "../style";
 import { footerLinks, socialMedia } from "../Constant";
 const Footer = () => (
   <section
-    id="contact"
-    name="contact"
+    id="connect"
+    name="connect"
     className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
   >
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <h1 className="text-gradient text-3xl text-bold">RNXG</h1>
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          RNXG that is Robotics for Next Generation provides the best platform
-          to work on different problem statements and to create best solutions
-          for them.
+          RNXG (Robotics for Next Generation) presents a premier platform for
+          the exploration and resolution of various technological challenges,
+          fostering the creation of unparalleled solutions.
         </p>
       </div>
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
-          <div
-            key={footerlink.title}
-            className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
-          >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                  <a href={link.URL}></a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
+          {/* otherlinks */}
+          <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            OtherLinks
+          </h4>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+              <a href="">Home </a>
+            </li>
+          </ul>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
+              <a href="">Treasure </a>
+            </li>
+          </ul>
+          <ul className="list-none mt-4">
+
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+              <a href="">Battle </a>
+            </li>
+          </ul>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
+              <a href="">Connect </a>
+            </li>
+          </ul>
+          
+        </div>
+        {/* club */}
+        <div>
+          <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            Club
+          </h4>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+              <a href="">  About</a>
+            </li>
+          </ul>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}>
+              <a href="">  Privacy </a>
+            </li>
+          </ul>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+              <a href=""> Terms & Condittion </a>
+            </li>
+          </ul>
+        </div>
+        {/* contact us  */}
+        <div>
+          <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white text-left ">
+            Contact us
+          </h4>
+          <ul className="list-none mt-4">
+            <li className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer `}>
+              <a href="https://mail.google.com/mail/u/0/?fs=1&to=rnxg@sggs.ac.in&tf=cm">rnxg@sggs.ac.in </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -52,9 +89,8 @@ const Footer = () => (
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer rounded-full hover:bg-gradient-to-l from-[#00df9a] to-[#DFFA2D] to  ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer rounded-full hover:bg-gradient-to-l from-[#00df9a] to-[#DFFA2D] to  ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
             onClick={() => window.open(social.link)}
           />
         ))}
